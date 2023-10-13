@@ -28,6 +28,7 @@ button{
   padding: .5rem;
 border-radius: 10px;
 cursor: pointer;
+margin-right: 1rem;
 }
 h1{
   color:  green;
@@ -56,4 +57,15 @@ h1{
  color: white;
  font-weight: bolder;
  padding: .1px;
+}
+.autoStop{
+  display: flex;
+  gap: 10rem;
+}
+
+.active{
+  opacity: 0.2;
+}
+.disabled{
+  opacity: 1;
 }
