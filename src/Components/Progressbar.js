@@ -45,7 +45,7 @@ const BackgroundColor = getBackgroundColor(value)
     <div className='progress' style={{backgroundColor: BackgroundColor,   width: `${value}%`,}}> 
     {value}%</div>
     </div>
-    <button  onClick={increaseVal}>Increase Value</button>
+    <button  onClick={increaseVal}>Do Task</button>
     </div>
   )
 }

@@ -42,7 +42,7 @@ function Stopwatch() {
   }
 
   return (
-    <div>
+    <div className='stopwatch'>
       <h2>Time: {formatTime(time)}</h2>
       <button
         onClick={() => handleButtonClick('start')}
