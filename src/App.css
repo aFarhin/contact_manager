@@ -1,13 +1,31 @@
-
-.App{
-  margin: 2rem;
-}
-.heading-a{
+.progress{
+  height: 28px;
   text-align: center;
-  color:  rgb(5, 75, 28);
-  text-transform: uppercase;
+  font-weight: bolder;
+  cursor: pointer;
+  color: white;
+  border-radius: 10px;
 }
-
-.heading-b{
-  color:  rgb(228, 84, 108);
+.app{
+  width: 70%;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.main{
+  width: 100%;
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+button{
+  margin-top: 20px;
+  background-color: rgb(12, 11, 11);
+  width: auto;
+  color: white;
+  padding: .5rem;
+border-radius: 10px;
+cursor: pointer;
 }
