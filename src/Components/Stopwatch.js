@@ -11,7 +11,7 @@ function Stopwatch() {
     if (running) {
       interval = setInterval(() => {
         setTime((t) => t + 1);
-      }, 10);
+      }, 100);
     } else {
       clearInterval(interval);
     }
